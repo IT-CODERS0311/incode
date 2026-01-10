@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incode | Portfolio</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --bg:#fff6e3;
+  --purple:#8e5cc7;
+  --purple-soft:#cbb3ef;
+  --text:#3b2f4a;
+  --card:#ffffff;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* HEADER */
+header{
+  text-align:center;
+  padding:50px 20px 30px;
+}
+
+header h1{
+  font-size:36px;
+  color:var(--purple);
+}
+
+header p{
+  margin-top:10px;
+  font-size:16px;
+  color:#6f5a85;
+}
+
+/* GRID */
+.container{
+  max-width:1150px;
+  margin:auto;
+  padding:0 6% 60px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:28px;
+}
+
+/* CARD */
+.card{
+  background:var(--card);
+  border-radius:22px;
+  box-shadow:0 12px 30px rgba(142,92,199,0.25);
+  overflow:hidden;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+}
+
+/* PREVIEW */
+.preview{
+  height:170px;
+  background:linear-gradient(135deg,#e8dcff,#f7f1ff);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  color:var(--purple);
+}
+
+/* CONTENT */
+.card-content{
+  padding:20px;
+}
+
+.card h3{
+  color:var(--purple);
+  margin-bottom:8px;
+  font-size:18px;
+}
+
+.card p{
+  font-size:14px;
+  color:#6b5a80;
+  line-height:1.6;
+}
+
+/* BUTTONS */
+.buttons{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+.buttons a{
+  flex:1;
+  text-align:center;
+  padding:9px;
+  border-radius:12px;
+  font-size:14px;
+  font-weight:500;
+  text-decoration:none;
+}
+
+.demo{
+  background:var(--purple);
+  color:#fff;
+}
+
+.code{
+  background:#f1eaff;
+  color:var(--purple);
+}
+
+/* CTA */
+.cta{
+  text-align:center;
+  margin-top:70px;
+}
+
+.cta h2{
+  color:var(--purple);
+}
+
+.cta p{
+  color:#6f5a85;
+}
+
+.cta a{
+  display:inline-block;
+  margin-top:14px;
+  padding:14px 30px;
+  background:linear-gradient(135deg,#8e5cc7,#b08de5);
+  color:#fff;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:25px;
+  color:#8a77a6;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>💼 Incode Portfolio</h1>
+  <p>Websites & interactive projects built using HTML, CSS & JavaScript</p>
+</header>
+
+<div class="container">
+  <div class="grid">
+
+    <!-- PROJECTS -->
+    <div class="card">
+      <div class="preview">🏢</div>
+      <div class="card-content">
+        <h3>Ishita Infotech Services</h3>
+        <p>Professional business website showcasing IT services.</p>
+        <div class="buttons">
+          <a href="https://it-coders0311.github.io/ishita-infotech-services/" class="demo" target="_blank">Live Site</a>
+          <a href="https://github.com/it-coders0311/ishita-infotech-services" class="code" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card"><div class="preview">📝</div><div class="card-content">
+      <h3>Note App</h3>
+      <p>A simple and clean notes application.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/note-app/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/note-app" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">✊</div><div class="card-content">
+      <h3>Stone Paper Scissors</h3>
+      <p>Classic game built with JavaScript logic.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/stone-paper-scissors-game/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/stone-paper-scissors-game" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🎉</div><div class="card-content">
+      <h3>Special Day Page</h3>
+      <p>Creative celebration webpage.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Special-day/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Special-day" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">✉️</div><div class="card-content">
+      <h3>Letters App</h3>
+      <p>Interactive letters & messages page.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Letters/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Letters" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🧮</div><div class="card-content">
+      <h3>Calculator</h3>
+      <p>Functional calculator using JavaScript.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Calculator-/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Calculator-" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">💖</div><div class="card-content">
+      <h3>Catch the Heart Game</h3>
+      <p>Fun interactive click game.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Catch-the-heart/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Catch-the-heart" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">❌⭕</div><div class="card-content">
+      <h3>Tic Tac Toe</h3>
+      <p>Classic Tic Tac Toe game.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Tic-tac-toe-game/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Tic-tac-toe-game" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🔤</div><div class="card-content">
+      <h3>Word Search</h3>
+      <p>Word search puzzle game.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Word-search/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Word-search" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🧠</div><div class="card-content">
+      <h3>Memory Game</h3>
+      <p>Memory matching game using JS.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Memory-game/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Memory-game" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🎂</div><div class="card-content">
+      <h3>Birthday Page</h3>
+      <p>Birthday wish & greeting webpage.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/Birthday/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/Birthday" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">🗒️</div><div class="card-content">
+      <h3>To-Do List</h3>
+      <p>Task management application to organize your day.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/to-do-list/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/to-do-list" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+    <div class="card"><div class="preview">📖</div><div class="card-content">
+      <h3>Dictionary App</h3>
+      <p>Search meanings of words with a clean interface.</p>
+      <div class="buttons">
+        <a href="https://it-coders0311.github.io/dictionary/" class="demo" target="_blank">Live Site</a>
+        <a href="https://github.com/it-coders0311/dictionary" class="code" target="_blank">GitHub</a>
+      </div></div></div>
+
+  </div>
+
+  <div class="cta">
+    <h2>Want a website like this?</h2>
+    <p>I create clean, responsive & interactive websites.</p>
+    <a href="https://wa.me/918979653786?text=Hello%20Ishita%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20a%20website."
+       target="_blank">
+       Contact Me on WhatsApp
+    </a>
+  </div>
+</div>
+
+<footer>
+  © 2025 Incode by Ishita — Code · Design · Build 💜
+</footer>
+
+</body>
+</html>
