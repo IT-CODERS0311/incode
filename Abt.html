@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Incode — About</title>
+  <style>
+    :root {
+      --bg: #f8f6f3;
+      --text: #2c2c2c;
+      --accent: #8b5cf6;
+      --highlight: #f0e7ff;
+      --card: #ffffffcc;
+      --muted: #6b7280;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', system-ui, sans-serif;
+      background: linear-gradient(180deg, #f9f7f5 0%, #f1edf9 100%);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 28px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 32px;
+      box-shadow: 0 8px 30px rgba(139, 92, 246, 0.12);
+      backdrop-filter: blur(10px);
+    }
+    header {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #8b5cf6, #ec4899);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #fff;
+      font-size: 28px;
+      box-shadow: 0 5px 15px rgba(236, 72, 153, 0.3);
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    p.lead {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 24px;
+      margin-top: 25px;
+    }
+    .section {
+      background: var(--highlight);
+      padding: 18px 20px;
+      border-radius: 16px;
+      transition: all 0.3s ease;
+    }
+    .section:hover {
+      background: #efe9ff;
+      box-shadow: 0 4px 12px rgba(139, 92, 246, 0.1);
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 0 8px;
+      color: var(--accent);
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, #8b5cf6, #ec4899);
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 15px rgba(236, 72, 153, 0.2);
+    }
+    .about-me {
+      line-height: 1.7;
+      color: var(--text);
+    }
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .pill {
+      display: inline-block;
+      background: #f3e8ff;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      color: #6b21a8;
+      margin-right: 8px;
+    }
+    footer {
+      margin-top: 24px;
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    @media(max-width:880px){
+      .grid{grid-template-columns:1fr;}
+      .logo{width:56px;height:56px;font-size:22px;}
+    }
+  </style>
+</head>
+<body>
+  <section class="about-section">
+    <div class="about-logo">
+        <img src="YOUR_LOGO_IMAGE_LINK" alt="InCode Logo">
+    </div><br>
+
+          <h1>Incode <span style="color:var(--accent);font-weight:600">— Where code meets creativity</span></h1>
+          <p class="lead">A space for free coding classes, templates, digital products, and custom website/app development.</p>
+        </div>
+      </header><div class="grid">
+    <div>
+      <section class="section">
+        <h2><u>Services Overview</u></h2>
+        <ul>
+          <li>✨ Free coding classes (beginner to intermediate)</li>
+          <li>🪄 Digital products & website templates</li>
+          <li>💻 Custom website / app development</li>
+          <li>📘 Online courses & learning resources</li>
+        </ul>
+      </section>
+
+      <section class="section" style="margin-top:16px">
+        <h2><u>Why choose Incode?</u></h2>
+        <p class="about-me">At Incode, we blend creativity with coding. Whether you want to learn, build, or create — we’re here to guide you every step of the way. Our goal is to make learning feel inspiring and practical.</p>
+      </section>
+
+      <section class="section" style="margin-top:16px">
+        <h2><u>Call to action</u></h2>
+        <p class="meta">Let’s build something amazing together — explore my portfolio or get in touch today.</p>
+              <a class="cta"
+             href="https://wa.me/918979653786"
+             target="_blank">Get in Touch</a>
+      </section>
+    </div>
+
+    <aside>
+      <div class="section">
+        <h2><U>About Me</U></h2>
+        <p class="about-me"><strong>Hi, I’m Ishita Saxena</strong> — a passionate coder and creator. I believe coding isn’t just a skill; it’s an art form. My mission is to make coding simple, accessible, and inspiring for everyone.</p>
+
+        <div style="margin-top:12px">
+          <div class="pill">🌸 Passionate Coder</div>
+          <div class="pill">🎨 Creative Thinker</div>
+          <div class="pill">💻 Web & App Dev</div>
+        </div>
+
+        <div style="margin-top:14px">
+          <p class="meta">I build beginner-friendly projects, templates, and educational resources. Also offering custom website & app solutions for students and startups.</p>
+        </div>
+
+        <div style="margin-top:16px">
+          <a class="cta" href="#portfolio">View Portfolio</a>
+        </div>
+      </div>
+
+      <div class="section" style="margin-top:16px">
+        <h2><u>Quick Contact</u></h2>
+        <p class="meta">📧 Email: <strong>ishishitasaxena@gmail.com</strong></p>
+        <p class="meta">📸 Instagram: <strong>@Ishita_saxena_03</strong></p>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div>Made with 💜 by Incode</div>
+    <div>© 2025 <strong>Incode</strong></div>
+  </footer>
+</div>
+
+  </div>
+</body>
+</html>
